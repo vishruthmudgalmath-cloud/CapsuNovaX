@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapsuNovaX | Swallowable Robotics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .hero { background: linear-gradient(135deg, #0b1220 0%, #1e293b 100%); }
+    .glow { text-shadow: 0 0 30px rgba(59, 130, 246, 0.6); }
+  </style>
+</head>
+<body class="bg-[#0b1220] text-white">
+
+  <!-- Navbar -->
+  <nav class="border-b border-white/10 bg-black/50 backdrop-blur-lg fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="https://i.imgur.com/8vKzL9P.png" alt="Logo" class="h-9"> <!-- Replace with your logo link if needed -->
+        <span class="text-2xl font-bold">CapsuNovaX</span>
+      </div>
+      <a href="#control" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-2xl font-semibold">Live Robot Control</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero min-h-screen flex items-center pt-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <img src="https://i.imgur.com/8vKzL9P.png" alt="CapsuNovaX Logo" class="mx-auto mb-8 h-28">
+      <h1 class="text-7xl font-bold glow">The Future of Endoscopy</h1>
+      <p class="text-3xl mt-6 text-blue-400">Swallowable • Motorized • AI-Guided • Drug Delivery</p>
+      <p class="max-w-2xl mx-auto mt-8 text-xl text-gray-300">
+        A next-generation robotic capsule that gives doctors real-time vision and control inside the human body — without sedation or invasive procedures.
+      </p>
+      <div class="mt-12 flex gap-4 justify-center">
+        <a href="#demo" class="bg-white text-black px-10 py-4 rounded-3xl font-semibold text-lg hover:scale-105 transition">Watch Demo</a>
+        <a href="https://github.com" target="_blank" class="border border-white/50 px-10 py-4 rounded-3xl font-semibold text-lg hover:bg-white/10 transition">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Demo -->
+  <section id="demo" class="py-20 bg-[#1e293b]">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-12">Our First Capsule</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img src="https://i.imgur.com/8vKzL9P.png" alt="CapsuNovaX Capsule" class="rounded-3xl shadow-2xl mx-auto"> <!-- Replace with real robot photo later -->
+        </div>
+        <div class="space-y-8 text-lg">
+          <div class="flex gap-4">
+            <i class="fa-solid fa-camera text-blue-400 text-3xl mt-1"></i>
+            <div>
+              <h3 class="font-semibold">Live HD Camera</h3>
+              <p class="text-gray-300">Real-time video streaming from inside the GI tract</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <i class="fa-solid fa-motorcycle text-blue-400 text-3xl mt-1"></i>
+            <div>
+              <h3 class="font-semibold">Motorized Propulsion</h3>
+              <p class="text-gray-300">3-axis movement with precise control</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <i class="fa-solid fa-syringe text-blue-400 text-3xl mt-1"></i>
+            <div>
+              <h3 class="font-semibold">Therapeutic Syringe</h3>
+              <p class="text-gray-300">Targeted drug delivery or ballast control</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <i class="fa-solid fa-brain text-blue-400 text-3xl mt-1"></i>
+            <div>
+              <h3 class="font-semibold">AI Hover Mode</h3>
+              <p class="text-gray-300">Automatic stabilization and drift correction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why We're Better -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-5xl font-bold mb-8">Better than Endiatx</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-[#1e293b] p-8 rounded-3xl">
+          <h3 class="text-2xl font-semibold mb-4">Full GI Tract</h3>
+          <p class="text-gray-300">Endiatx only works in the stomach. CapsuNovaX will navigate the entire digestive system.</p>
+        </div>
+        <div class="bg-[#1e293b] p-8 rounded-3xl">
+          <h3 class="text-2xl font-semibold mb-4">Therapeutic</h3>
+          <p class="text-gray-300">Not just imaging — we deliver medicine exactly where needed.</p>
+        </div>
+        <div class="bg-[#1e293b] p-8 rounded-3xl">
+          <h3 class="text-2xl font-semibold mb-4">AI-Assisted</h3>
+          <p class="text-gray-300">Autonomous hover and drift correction — less burden on the doctor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 bg-blue-600 text-center">
+    <h2 class="text-4xl font-bold">Join the revolution in swallowable robotics</h2>
+    <p class="mt-6 text-xl">CapsuNovaX — Built by a student who refused to quit.</p>
+    <a href="#control" class="mt-10 inline-block bg-white text-black px-12 py-5 rounded-3xl text-2xl font-bold hover:scale-105 transition">Try the Live Robot Control →</a>
+  </section>
+
+  <footer class="py-12 text-center text-gray-400 text-sm">
+    © 2026 CapsuNovaX • Oregon, USA • Made with determination
+  </footer>
+</body>
+</html>
